@@ -28,7 +28,7 @@ a{
 }
 
 .button{
-    background-color: grey;
+    background-color: #5A6774;
     padding: 0.2rem;
     border-radius: 5px;
 }
@@ -48,9 +48,38 @@ a{
 }
 
 .card{
-    /* border: 1px solid black; */
-    background-color: aqua;
+    /* background-color: aqua; */
     width: calc(100% / 8);
     height: 150px;
     flex-grow: 4;
+    position: relative;
+}
+
+.mute{
+    background-color: rgba(90, 103, 116, 0.5);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.microphone{
+    color: white;
+    padding: 0.2rem;
+}
+
+img{
+    width: 100%;
+    height: 150px;
+}
+
+/* parte finale */
+
+.down{
+    height: 60px;
+    width: 100%;
+    background-color: #5A6774;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 60;
 }
