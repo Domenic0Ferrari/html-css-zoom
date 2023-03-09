@@ -21,10 +21,10 @@ a{
     justify-content: flex-end;
     gap: 0.2rem;
     /* margin-right: 3rem; */
-    position: fixed;
+    /* position: fixed;
     top: 0;
     right: 0;
-    z-index: 90;
+    z-index: 90; */
 }
 
 .button{
@@ -37,14 +37,15 @@ a{
 
 .container{
     width: 90%;
-    height: 100vh;
+    height: calc(100vh - 85px);
     margin-inline: auto;
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
     /* background-color: orange; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 0.5rem;
+    overflow: auto;
 }
 
 .card{
@@ -78,8 +79,8 @@ img{
     height: 60px;
     width: 100%;
     background-color: #5A6774;
-    position: fixed;
+    /* position: fixed;
     bottom: 0;
     left: 0;
-    z-index: 60;
+    z-index: 60; */
 }
