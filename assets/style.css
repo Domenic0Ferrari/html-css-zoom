@@ -28,7 +28,7 @@ a{
 }
 
 .button{
-    background-color: #5A6774;
+    background-color: #202124;
     padding: 0.2rem;
     border-radius: 5px;
 }
@@ -78,7 +78,7 @@ img{
 .down{
     height: 60px;
     width: 100%;
-    background-color: #5A6774;
+    background-color: #202124;
     display: flex;
 }
 
@@ -94,7 +94,7 @@ img{
 .quadrato{
     height: 50px;
     width: 80px;
-    background-color: green;
+    /* background-color: green; */
     text-align: center;
 }
 
@@ -107,6 +107,11 @@ img{
     font-size: 25px;
 }
 
+.share{
+    font-size: 25px;
+    color: lime;
+}
+
 .center{
     height: 60px;
     /* background-color: red; */
@@ -115,6 +120,8 @@ img{
     align-items: center;
     justify-content: center;
 }
+
+
 
 .right{
     height: 60px;
@@ -129,4 +136,8 @@ img{
     color: red;
     font-size: 13px;
     line-height: 50px;
+}
+
+.destro{
+    background-color: gray;
 }
